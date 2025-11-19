@@ -1,0 +1,15 @@
+google-generativeai
+openpyxl
+openai==1.68.2
+pandas==2.2.2
+protobuf==4.25.3
+pydantic==2.7.0
+Pympler==1.0.1
+click==8.1.7
+datasets
+jsonlines
+anthropic
+transformers
+torch
+colorama
+python-dotenv

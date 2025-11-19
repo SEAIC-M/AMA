@@ -1,0 +1,32 @@
+skip_if_exists: true
+know_privacy_key: false
+parallel_num: 20
+each_run_num: 2
+attack_tool: 
+  - target
+  - untarget
+
+injection_method: direct_prompt_injection
+write_db: false 
+task_num: 5
+run_tools_num: 2
+llms:
+  - gemma-3-it
+  - qwen2.5-instruct-32b
+  - llama-3.3-instruct
+  - qwen3
+attack_types:
+  pure:
+    steal_parmas_num: [1]
+    defense_type:
+      - null
+      - dynamic_prompt_rewriting
+      - soft_prompt_defense
+      - soft_prompt_defense_dynamic_prompt_rewriting
+  
+  naive:
+    steal_parmas_num: [0,1,2,3,4,5,6,7,8,9]
+    defense_type:
+      - null
+      - dynamic_prompt_rewriting
+

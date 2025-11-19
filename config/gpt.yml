@@ -1,0 +1,18 @@
+skip_if_exists: true
+know_privacy_key: false
+parallel_num: 20
+each_run_num: 2
+attack_tool: 
+  - target
+
+injection_method: direct_prompt_injection
+write_db: false 
+task_num: 5
+run_tools_num: 2
+llms:
+  - gpt-4o-mini
+attack_types:
+  pure:
+    steal_parmas_num: [1]
+    defense_type:
+      - null

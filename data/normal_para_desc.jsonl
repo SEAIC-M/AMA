@@ -1,0 +1,18 @@
+{"name": "prompt", "value": "prompt description of the image to be generated"}
+{"name": "query", "value": "Search query for airport"}
+{"name": "sourceAirportCode", "value": "The source airport code of the flight to search for"}
+{"name": "date", "value": "The date of the flight"}
+{"name": "returnDate", "value": "The return date of the flight"}
+{"name": "destinationAirportCode", "value": "The destination airport code of the flight"}
+{"name": "itineraryType", "value": "The type of itinerary"}
+{"name": "sortOrder", "value": "The order to sort the results"}
+{"name": "classOfService", "value": "The class of service for the flight"}
+{"name": "numSeniors", "value": "The number of seniors in the itinerary"}
+{"name": "numAdults", "value": "The number of adults in the itinerary"}
+{"name": "id", "value": "The ID of the hotel to get details for"}
+{"name": "checkIn", "value": "The check in date"}
+{"name": "checkOut", "value": "The check out date"}
+{"name": "restaurantsId", "value": "The ID of the restaurant to get details for"}
+{"name": "geoId", "value": "The geoId of the hotel to search for"}
+{"name": "query", "value": "Search query for Wikipedia"}
+{"name": "query", "value": "the abstracted mathematical query that needs to be answered"}
